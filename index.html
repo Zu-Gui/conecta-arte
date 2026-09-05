@@ -1,0 +1,1972 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="color-scheme" content="light" />
+        <meta name="theme-color" content="#390099" />
+        <title>Conecta Arte — IFSP Campus Catanduva</title>
+        <meta
+            name="description"
+            content="Projeto de extensão universitária aproximando artistas locais de Catanduva e a comunidade."
+        />
+        <link rel="icon" href="public/logo.png" />
+        <link rel="apple-touch-icon" href="public/logo.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <!-- ═══════════════ HEADER ═══════════════ -->
+            <header class="site-header">
+                <div class="header-inner">
+                    <a
+                        href="#inicio"
+                        class="logo-link"
+                        aria-label="Conecta Arte, início"
+                    >
+                        <img
+                            src="public/logo.png"
+                            alt="Logo Conecta Arte"
+                            class="logo-img"
+                        />
+                    </a>
+
+                    <nav class="desktop-nav" aria-label="Navegação principal">
+                        <a href="#projeto">O Projeto</a>
+                        <a href="#ods">ODS</a>
+                        <a href="#cronograma">Cronograma</a>
+                        <a href="#equipe">Equipe</a>
+                        <a href="#contato">Contato</a>
+                    </nav>
+
+                    <div class="header-cta">
+                        <a href="#contato" class="btn-gradient btn-sm">
+                            Fale Conosco
+                            <!-- ArrowUpRight -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <line x1="7" y1="17" x2="17" y2="7" />
+                                <polyline points="7 7 17 7 17 17" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <button
+                        id="mobile-menu-btn"
+                        class="mobile-menu-btn"
+                        aria-label="Abrir menu"
+                    >
+                        <!-- Menu icon (hamburger) -->
+                        <svg
+                            id="menu-icon-open"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <line x1="4" x2="20" y1="12" y2="12" />
+                            <line x1="4" x2="20" y1="6" y2="6" />
+                            <line x1="4" x2="20" y1="18" y2="18" />
+                        </svg>
+                        <!-- X icon (close) -->
+                        <svg
+                            id="menu-icon-close"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            style="display: none"
+                        >
+                            <path d="M18 6 6 18" />
+                            <path d="m6 6 12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Mobile nav -->
+                <nav
+                    id="mobile-nav"
+                    class="mobile-nav"
+                    aria-label="Navegação mobile"
+                >
+                    <a href="#projeto">O Projeto</a>
+                    <a href="#ods">ODS</a>
+                    <a href="#cronograma">Cronograma</a>
+                    <a href="#equipe">Equipe</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+            </header>
+
+            <!-- ═══════════════ HERO ═══════════════ -->
+            <section id="inicio" class="hero-section">
+                <div class="hero-blob hero-blob--pink"></div>
+                <div class="hero-blob hero-blob--purple"></div>
+
+                <div class="hero-grid container">
+                    <!-- Left column: text -->
+                    <div class="hero-text">
+                        <div class="hero-badge">
+                            <span class="badge-dot animate-pulse"></span>
+                            Proposta de Extensão · CTDEXTE 2026.2
+                        </div>
+
+                        <h1 class="hero-title">
+                            Conecta Arte: aproximando
+                            <span class="gradient-text-conecta"
+                                >artistas locais</span
+                            >
+                            e comunidade.
+                        </h1>
+
+                        <p class="hero-description">
+                            Um projeto acadêmico de desenvolvimento de software
+                            do <strong>IFSP Campus Catanduva</strong>, focado em
+                            democratizar o acesso à cultura e valorizar a
+                            produção de artes plásticas do município em uma
+                            vitrine digital permanente.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#projeto" class="btn-gradient btn-lg">
+                                <!-- BookOpen -->
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"
+                                    />
+                                    <path
+                                        d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+                                    />
+                                </svg>
+                                Conhecer a Proposta
+                                <!-- ArrowUpRight -->
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <line x1="7" y1="17" x2="17" y2="7" />
+                                    <polyline points="7 7 17 7 17 17" />
+                                </svg>
+                            </a>
+                            <a href="#equipe" class="btn-outline">
+                                <!-- Users -->
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                                    />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                Conheça a Equipe
+                            </a>
+                        </div>
+
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-icon stat-icon--pink">
+                                    <!-- Landmark -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <line x1="3" x2="21" y1="22" y2="22" />
+                                        <line x1="6" x2="6" y1="18" y2="11" />
+                                        <line x1="10" x2="10" y1="18" y2="11" />
+                                        <line x1="14" x2="14" y1="18" y2="11" />
+                                        <line x1="18" x2="18" y1="18" y2="11" />
+                                        <polygon points="12 2 20 7 4 7" />
+                                    </svg>
+                                </div>
+                                <span>IFSP Catanduva</span>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon stat-icon--orange">
+                                    <!-- Globe2 -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M21.54 15H17a2 2 0 0 0-2 2v4.54"
+                                        />
+                                        <path
+                                            d="M7 3.34V5a3 3 0 0 0 3 3v0a2 2 0 0 1 2 2v0c0 1.1.9 2 2 2v0a2 2 0 0 0 2-2v0c0-1.1.9-2 2-2h3.17"
+                                        />
+                                        <path
+                                            d="M11 21.95V18a2 2 0 0 0-2-2v0a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"
+                                        />
+                                        <circle cx="12" cy="12" r="10" />
+                                    </svg>
+                                </div>
+                                <span>ODS 8 e ODS 11</span>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon stat-icon--purple">
+                                    <!-- Building2 -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"
+                                        />
+                                        <path
+                                            d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"
+                                        />
+                                        <path
+                                            d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"
+                                        />
+                                        <path d="M10 6h4" />
+                                        <path d="M10 10h4" />
+                                        <path d="M10 14h4" />
+                                        <path d="M10 18h4" />
+                                    </svg>
+                                </div>
+                                <span>Estação Cultural</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right column: image -->
+                    <div class="hero-image-wrapper">
+                        <div class="art-frame-premium">
+                            <img
+                                src="public/conecta-arte-hero.png"
+                                alt="Arte e cultura de Catanduva"
+                                class="hero-image"
+                            />
+                            <div class="art-watermark-overlay"></div>
+                        </div>
+
+                        <div class="art-stamp animate-float-slow">
+                            CA
+                            <small>2026</small>
+                        </div>
+
+                        <div class="hero-overlay-card glass-card">
+                            <div class="overlay-card-header">
+                                <span class="badge-dot animate-ping"></span>
+                                <span class="overlay-card-label"
+                                    >Meta da Fase 1</span
+                                >
+                            </div>
+                            <p class="overlay-card-title">
+                                10 Artistas &amp; 20 Obras em Exposição Digital
+                            </p>
+                            <p class="overlay-card-sub">Catanduva - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ O PROJETO ═══════════════ -->
+            <section id="projeto" class="section section--border-top">
+                <div class="container">
+                    <div class="projeto-grid">
+                        <div class="projeto-text">
+                            <span class="eyebrow">
+                                <!-- Compass -->
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="14"
+                                    height="14"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polygon
+                                        points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"
+                                    />
+                                </svg>
+                                Diagnóstico &amp; Justificativa
+                            </span>
+                            <h2 class="section-title text-brand-purple">
+                                A necessidade de uma
+                                <span class="gradient-text-conecta"
+                                    >vitrine contínua</span
+                                >
+                                em Catanduva.
+                            </h2>
+                            <p class="section-desc">
+                                Em Catanduva (SP), a produção artística local
+                                promovida por entidades municipais, como a
+                                Estação Cultural, carece de um espaço permanente
+                                para exibição e valorização.
+                            </p>
+                            <p class="section-desc">
+                                Atualmente, a exposição dessas obras
+                                restringe-se a eventos presenciais efêmeros,
+                                como a
+                                <strong
+                                    >Mostra de Artes Plásticas de Catanduva
+                                    (MOARC)</strong
+                                >. O projeto Conecta Arte cria um ambiente
+                                digital contínuo, democratizando o acesso e
+                                fomentando a economia criativa.
+                            </p>
+                        </div>
+
+                        <div class="feature-cards">
+                            <div class="feature-card feature-card--purple">
+                                <div class="feature-icon feature-icon--purple">
+                                    <!-- Landmark -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <line x1="3" x2="21" y1="22" y2="22" />
+                                        <line x1="6" x2="6" y1="18" y2="11" />
+                                        <line x1="10" x2="10" y1="18" y2="11" />
+                                        <line x1="14" x2="14" y1="18" y2="11" />
+                                        <line x1="18" x2="18" y1="18" y2="11" />
+                                        <polygon points="12 2 20 7 4 7" />
+                                    </svg>
+                                </div>
+                                <h3 class="feature-title">
+                                    Acesso Democrático 24h
+                                </h3>
+                                <p class="feature-desc">
+                                    Transforma o acervo de artes plásticas em um
+                                    catálogo digital acessível a qualquer
+                                    momento pela população.
+                                </p>
+                            </div>
+
+                            <div class="feature-card feature-card--pink">
+                                <div class="feature-icon feature-icon--pink">
+                                    <!-- Heart -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                        />
+                                    </svg>
+                                </div>
+                                <h3 class="feature-title">Economia Criativa</h3>
+                                <p class="feature-desc">
+                                    Conexão direta entre cidadãos e artistas
+                                    para aquisições e encomendas, sem taxas ou
+                                    intermediários financeiros.
+                                </p>
+                            </div>
+
+                            <div class="feature-card feature-card--orange">
+                                <div class="feature-icon feature-icon--orange">
+                                    <!-- Users -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                                        />
+                                        <circle cx="9" cy="7" r="4" />
+                                        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                    </svg>
+                                </div>
+                                <h3 class="feature-title">
+                                    Inclusão Digital Real
+                                </h3>
+                                <p class="feature-desc">
+                                    Apoio presencial para cadastramento de
+                                    alunos e artistas idosos ou com pouca
+                                    familiaridade tecnológica.
+                                </p>
+                            </div>
+
+                            <div class="feature-card feature-card--yellow">
+                                <div class="feature-icon feature-icon--yellow">
+                                    <!-- BookOpen -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path
+                                            d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"
+                                        />
+                                        <path
+                                            d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+                                        />
+                                    </svg>
+                                </div>
+                                <h3 class="feature-title">Prática Real</h3>
+                                <p class="feature-desc">
+                                    Integração de disciplinas: Engenharia de
+                                    Software, Banco de Dados, UI/UX,
+                                    Acessibilidade e Desenvolvimento Web.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ OBJETIVOS ═══════════════ -->
+            <section
+                id="objetivos"
+                class="section section--bg-secondary section--border-y"
+            >
+                <div class="container">
+                    <div class="section-header">
+                        <span class="eyebrow eyebrow--center">
+                            <!-- Target -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="#ff5400"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="12" cy="12" r="10" />
+                                <circle cx="12" cy="12" r="6" />
+                                <circle cx="12" cy="12" r="2" />
+                            </svg>
+                            Metas do Projeto
+                        </span>
+                        <h2 class="section-title text-brand-purple">
+                            Objetivos Gerais e
+                            <span class="gradient-text-conecta"
+                                >Específicos</span
+                            >
+                        </h2>
+                        <p class="section-subtitle">
+                            Diretrizes formais estabelecidas na Fase 1 de
+                            submissão do projeto de extensão.
+                        </p>
+                    </div>
+
+                    <div class="objectives-grid">
+                        <div class="objective-card">
+                            <div>
+                                <span
+                                    class="objective-badge objective-badge--purple"
+                                    >Objetivo 1</span
+                                >
+                                <h3 class="objective-title">
+                                    Website Funcional &amp; Responsivo
+                                </h3>
+                                <p class="objective-desc">
+                                    Desenvolver e disponibilizar um site web
+                                    responsivo e acessível para a divulgação dos
+                                    artistas locais e suas produções.
+                                </p>
+                            </div>
+                            <div
+                                class="objective-footer objective-footer--purple"
+                            >
+                                <!-- CheckCircle2 -->
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="m9 12 2 2 4-4" />
+                                </svg>
+                                Entrega Web Fullstack
+                            </div>
+                        </div>
+
+                        <div class="objective-card">
+                            <div>
+                                <span
+                                    class="objective-badge objective-badge--pink"
+                                    >Objetivo 2</span
+                                >
+                                <h3 class="objective-title">
+                                    Meta de 10 Artistas e 20 Obras
+                                </h3>
+                                <p class="objective-desc">
+                                    Cadastrar no mínimo 10 artistas e 20 obras
+                                    na plataforma (atingindo 25% do contingente
+                                    da 12ª MOARC de Catanduva).
+                                </p>
+                            </div>
+                            <div
+                                class="objective-footer objective-footer--pink"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="m9 12 2 2 4-4" />
+                                </svg>
+                                Acervo Inicial Validado
+                            </div>
+                        </div>
+
+                        <div class="objective-card">
+                            <div>
+                                <span
+                                    class="objective-badge objective-badge--orange"
+                                    >Objetivo 3</span
+                                >
+                                <h3 class="objective-title">
+                                    Perfis de Artistas e Contato
+                                </h3>
+                                <p class="objective-desc">
+                                    Disponibilizar perfis com biografia, tempo
+                                    de atuação, fotos de obras e canais de
+                                    contato autorizados pelo criador.
+                                </p>
+                            </div>
+                            <div
+                                class="objective-footer objective-footer--orange"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff5400"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="m9 12 2 2 4-4" />
+                                </svg>
+                                Autonomia ao Criador
+                            </div>
+                        </div>
+
+                        <div class="objective-card">
+                            <div>
+                                <span
+                                    class="objective-badge objective-badge--yellow"
+                                    >Objetivo 4</span
+                                >
+                                <h3 class="objective-title">
+                                    Sinalização de Disponibilidade
+                                </h3>
+                                <p class="objective-desc">
+                                    Permitir a sinalização de obras disponíveis
+                                    para compra ou apreciação, sem qualquer
+                                    intermediação financeira no sistema.
+                                </p>
+                            </div>
+                            <div
+                                class="objective-footer objective-footer--purple"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ffbd00"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="m9 12 2 2 4-4" />
+                                </svg>
+                                Sem Taxas de Terceiros
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ ODS ═══════════════ -->
+            <section
+                id="ods"
+                class="section section--bg-white section--border-bottom"
+            >
+                <div class="container">
+                    <div class="section-header">
+                        <div class="hero-badge hero-badge--sm">
+                            <!-- Award -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="#ff5400"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="12" cy="8" r="6" />
+                                <path
+                                    d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"
+                                />
+                            </svg>
+                            Compromisso Agenda 2030 · ONU
+                        </div>
+                        <h2 class="section-title text-brand-purple">
+                            Alinhamento com os
+                            <span class="gradient-text-conecta"
+                                >Objetivos Sustentáveis</span
+                            >
+                        </h2>
+                        <p class="section-subtitle">
+                            O projeto Conecta Arte integra extensão
+                            universitária com a Agenda 2030, gerando impacto
+                            cultural e socioeconômico direto em Catanduva.
+                        </p>
+                    </div>
+
+                    <div class="ods-grid">
+                        <!-- ODS 8 -->
+                        <div class="ods-card ods-card--pink">
+                            <div>
+                                <div class="ods-card-header">
+                                    <div class="ods-badge ods-badge--8">
+                                        <span class="ods-label">ODS</span>
+                                        <span class="ods-number">8</span>
+                                    </div>
+                                    <div>
+                                        <span class="ods-tag ods-tag--8">
+                                            <!-- TrendingUp -->
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="14"
+                                                height="14"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            >
+                                                <polyline
+                                                    points="22 7 13.5 15.5 8.5 10.5 2 17"
+                                                />
+                                                <polyline
+                                                    points="16 7 22 7 22 13"
+                                                />
+                                            </svg>
+                                            Trabalho Decente &amp; Crescimento
+                                            Econômico
+                                        </span>
+                                        <h3 class="ods-title">
+                                            Fomento à Economia Criativa Local
+                                        </h3>
+                                    </div>
+                                </div>
+                                <p class="ods-desc">
+                                    Oferece aos artistas e artesãos de Catanduva
+                                    uma vitrine de alcance ampliado no ambiente
+                                    digital, superando barreiras físicas e
+                                    gerando oportunidades autônomas de
+                                    divulgação e contato direto com
+                                    interessados.
+                                </p>
+                                <div class="ods-checklist">
+                                    <div class="ods-check-item">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="#A21942"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <p>
+                                            <strong
+                                                >Divulgação sem
+                                                intermediários:</strong
+                                            >
+                                            Conexão direta entre comunidade e
+                                            criador, sem taxas abusivas de
+                                            plataformas comerciais.
+                                        </p>
+                                    </div>
+                                    <div class="ods-check-item">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="#A21942"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <p>
+                                            <strong
+                                                >Protagonismo ao
+                                                artista:</strong
+                                            >
+                                            Valorização do trabalho manual, de
+                                            alunos de oficinas e de produtores
+                                            culturais independentes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ods-footer">
+                                <span
+                                    class="ods-footer-label"
+                                    style="color: #a21942"
+                                    >Impacto Socioeconômico</span
+                                >
+                                <span
+                                    class="ods-footer-tag"
+                                    style="
+                                        background: rgba(162, 25, 66, 0.1);
+                                        color: #a21942;
+                                    "
+                                    >Inclusão Produtiva</span
+                                >
+                            </div>
+                        </div>
+
+                        <!-- ODS 11 -->
+                        <div class="ods-card ods-card--orange">
+                            <div>
+                                <div class="ods-card-header">
+                                    <div class="ods-badge ods-badge--11">
+                                        <span class="ods-label">ODS</span>
+                                        <span class="ods-number">11</span>
+                                    </div>
+                                    <div>
+                                        <span class="ods-tag ods-tag--11">
+                                            <!-- Building2 -->
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="14"
+                                                height="14"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            >
+                                                <path
+                                                    d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"
+                                                />
+                                                <path
+                                                    d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"
+                                                />
+                                                <path
+                                                    d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"
+                                                />
+                                                <path d="M10 6h4" />
+                                                <path d="M10 10h4" />
+                                                <path d="M10 14h4" />
+                                                <path d="M10 18h4" />
+                                            </svg>
+                                            Cidades &amp; Comunidades
+                                            Sustentáveis
+                                        </span>
+                                        <h3 class="ods-title">
+                                            Preservação da Identidade e Cultura
+                                        </h3>
+                                    </div>
+                                </div>
+                                <p class="ods-desc">
+                                    Fortalece a identidade cultural de
+                                    Catanduva, democratizando o acesso contínuo
+                                    às artes plásticas e garantindo que o acervo
+                                    das oficinas municipais permaneça vivo e
+                                    acessível além das mostras pontuais.
+                                </p>
+                                <div class="ods-checklist">
+                                    <div class="ods-check-item">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="#FD6925"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <p>
+                                            <strong
+                                                >Democratização do
+                                                acesso:</strong
+                                            >
+                                            Acervo artístico municipal
+                                            disponível 24 horas por dia, 100%
+                                            público e gratuito.
+                                        </p>
+                                    </div>
+                                    <div class="ods-check-item">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="#FD6925"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <circle cx="12" cy="12" r="10" />
+                                            <path d="m9 12 2 2 4-4" />
+                                        </svg>
+                                        <p>
+                                            <strong
+                                                >Integração com a
+                                                cidade:</strong
+                                            >
+                                            Estreitamento dos laços entre
+                                            munícipes, Estação Cultural e IFSP
+                                            Campus Catanduva.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ods-footer">
+                                <span
+                                    class="ods-footer-label"
+                                    style="color: #fd6925"
+                                    >Patrimônio &amp; Sociedade</span
+                                >
+                                <span
+                                    class="ods-footer-tag"
+                                    style="
+                                        background: rgba(253, 105, 37, 0.1);
+                                        color: #fd6925;
+                                    "
+                                    >Cultura Acessível</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Partners -->
+                    <div class="partners-section">
+                        <p class="partners-label">
+                            Ecossistema e Parceiros da Proposta
+                        </p>
+                        <div class="partners-grid">
+                            <div class="partner-card">
+                                <img
+                                    class="partner-logo"
+                                    src="public/partners/logo_ifsp.png"
+                                    alt="IFSP Catanduva"
+                                />
+                                <span class="partner-name">IFSP Catanduva</span>
+                                <span class="partner-role"
+                                    >Campus Universitário</span
+                                >
+                            </div>
+                            <div class="partner-card">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"
+                                    />
+                                    <path
+                                        d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"
+                                    />
+                                    <path
+                                        d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"
+                                    />
+                                    <path d="M10 6h4" />
+                                    <path d="M10 10h4" />
+                                    <path d="M10 14h4" />
+                                    <path d="M10 18h4" />
+                                </svg>
+                                <span class="partner-name"
+                                    >Estação Cultural</span
+                                >
+                                <span class="partner-role"
+                                    >Oficinas Municipais</span
+                                >
+                            </div>
+                            <div class="partner-card">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff5400"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="8" r="6" />
+                                    <path
+                                        d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"
+                                    />
+                                </svg>
+                                <span class="partner-name"
+                                    >Sec. de Cultura</span
+                                >
+                                <span class="partner-role"
+                                    >Prefeitura Municipal</span
+                                >
+                            </div>
+                            <div class="partner-card">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#390099"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path
+                                        d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                                    />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                <span class="partner-name"
+                                    >Artistas Locais</span
+                                >
+                                <span class="partner-role"
+                                    >Coletivos Culturais</span
+                                >
+                            </div>
+                            <div class="partner-card partner-card--wide">
+                                <img
+                                    class="partner-logo partner-logo--boss"
+                                    src="public/partners/logo-patrocinador.webp"
+                                    alt="Boss Tecnologia"
+                                />
+                                <span class="partner-name"
+                                    >Boss Tecnologia</span
+                                >
+                                <span class="partner-role"
+                                    >Recursos &amp; Domínio</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ CRONOGRAMA ═══════════════ -->
+            <section
+                id="cronograma"
+                class="section section--bg-secondary section--border-y"
+            >
+                <div class="container container--narrow">
+                    <div class="section-header">
+                        <span class="eyebrow eyebrow--center">
+                            <!-- Calendar -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="#ff5400"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <rect
+                                    width="18"
+                                    height="18"
+                                    x="3"
+                                    y="4"
+                                    rx="2"
+                                    ry="2"
+                                />
+                                <line x1="16" x2="16" y1="2" y2="6" />
+                                <line x1="8" x2="8" y1="2" y2="6" />
+                                <line x1="3" x2="21" y1="10" y2="10" />
+                            </svg>
+                            Linha do Tempo
+                        </span>
+                        <h2 class="section-title text-brand-purple">
+                            Etapas do Projeto
+                        </h2>
+                    </div>
+
+                    <div class="cronograma-grid">
+                        <div class="cronograma-beam-card">
+                            <div class="cronograma-beam-inner">
+                                <div>
+                                    <div class="cronograma-header">
+                                        <h3 class="cronograma-title">
+                                            1. Planejamento
+                                        </h3>
+                                        <span class="cronograma-periodo"
+                                            >29/08 a 19/09/2026</span
+                                        >
+                                    </div>
+                                    <p class="cronograma-desc">
+                                        Levantamento de requisitos, arquitetura
+                                        técnica do software, modelagem de banco
+                                        de dados e reuniões de alinhamento com a
+                                        Estação Cultural.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cronograma-beam-card">
+                            <div class="cronograma-beam-inner">
+                                <div>
+                                    <div class="cronograma-header">
+                                        <h3 class="cronograma-title">
+                                            2. Desenvolvimento
+                                        </h3>
+                                        <span class="cronograma-periodo"
+                                            >20/09 a 18/11/2026</span
+                                        >
+                                    </div>
+                                    <p class="cronograma-desc">
+                                        Construção da plataforma web fullstack
+                                        (Front-End e Back-End), catálogo digital
+                                        de obras, design responsivo e testes de
+                                        usabilidade.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cronograma-beam-card">
+                            <div class="cronograma-beam-inner">
+                                <div>
+                                    <div class="cronograma-header">
+                                        <h3 class="cronograma-title">
+                                            3. Implementação
+                                        </h3>
+                                        <span class="cronograma-periodo"
+                                            >07/11 a 30/11/2026</span
+                                        >
+                                    </div>
+                                    <p class="cronograma-desc">
+                                        Publicação do sistema em produção,
+                                        capacitação de usuários e apoio
+                                        presencial para o cadastramento inicial
+                                        dos artistas e suas obras.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cronograma-beam-card">
+                            <div class="cronograma-beam-inner">
+                                <div>
+                                    <div class="cronograma-header">
+                                        <h3 class="cronograma-title">
+                                            4. Encerramento
+                                        </h3>
+                                        <span class="cronograma-periodo"
+                                            >01/12 a 11/12/2026</span
+                                        >
+                                    </div>
+                                    <p class="cronograma-desc">
+                                        Consolidação dos indicadores de impacto
+                                        comunitário, apresentação pública dos
+                                        resultados e entrega do relatório final
+                                        de extensão.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ EQUIPE ═══════════════ -->
+            <section id="equipe" class="team-section">
+                <div class="team-blob team-blob--pink"></div>
+                <div class="team-blob team-blob--purple"></div>
+
+                <div class="container team-container">
+                    <div class="team-header">
+                        <span class="team-eyebrow">
+                            <!-- Users -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                                />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            </svg>
+                            Equipe do Projeto
+                        </span>
+                        <h2 class="team-title">
+                            Quem faz
+                            <span class="gradient-fire-text">acontecer</span>
+                        </h2>
+                        <p class="team-desc">
+                            Estudantes do curso superior de
+                            <strong
+                                >Análise e Desenvolvimento de Sistemas
+                                (ADS)</strong
+                            >
+                            do <strong>IFSP Campus Catanduva</strong>, unindo
+                            desenvolvimento de software e impacto comunitário
+                            real.
+                        </p>
+                    </div>
+
+                    <div class="team-grid">
+                        <!-- Member 1 -->
+                        <div class="team-card glass-dark-card">
+                            <div>
+                                <div class="team-card-header">
+                                    <div class="team-photo-frame">
+                                        <img
+                                            src="public/team/thais.jpeg"
+                                            alt="Foto de Thais Jellmayer Martins Gonçalves"
+                                        />
+                                    </div>
+                                    <div class="team-info">
+                                        <h3 class="team-member-name">
+                                            Thais Jellmayer Martins Gonçalves
+                                        </h3>
+                                        <span class="team-member-role"
+                                            >Líder · Coordenadora</span
+                                        >
+                                    </div>
+                                </div>
+                                <p class="team-member-bio">
+                                    Gestão geral da iniciativa, monitoramento de
+                                    cronograma, revisão de entregas e condução
+                                    de reuniões de alinhamento com a equipe e
+                                    parceiros institucionais.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Member 2 -->
+                        <div class="team-card glass-dark-card">
+                            <div>
+                                <div class="team-card-header">
+                                    <div class="team-photo-frame">
+                                        <img
+                                            src="public/team/guilherme.jpeg"
+                                            alt="Foto de Guilherme Mateus de Souza"
+                                        />
+                                    </div>
+                                    <div class="team-info">
+                                        <h3 class="team-member-name">
+                                            Guilherme Mateus de Souza
+                                        </h3>
+                                        <span class="team-member-role"
+                                            >Vice-Líder · Gestor de
+                                            Parcerias</span
+                                        >
+                                    </div>
+                                </div>
+                                <p class="team-member-bio">
+                                    Articulação direta com a Estação Cultural,
+                                    Secretaria de Cultura e Ensino Médio
+                                    Integrado. Coleta de demandas e alinhamento
+                                    com artistas locais.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Member 3 -->
+                        <div class="team-card glass-dark-card">
+                            <div>
+                                <div class="team-card-header">
+                                    <div class="team-photo-frame">
+                                        <img
+                                            src="public/team/gabriel.jpeg"
+                                            alt="Foto de Gabriel Veloso Ferro de Lima"
+                                        />
+                                    </div>
+                                    <div class="team-info">
+                                        <h3 class="team-member-name">
+                                            Gabriel Veloso Ferro de Lima
+                                        </h3>
+                                        <span class="team-member-role"
+                                            >Dev Back-End</span
+                                        >
+                                    </div>
+                                </div>
+                                <p class="team-member-bio">
+                                    Modelagem do banco de dados, desenvolvimento
+                                    de endpoints de catálogo, filtros de busca,
+                                    regras de segurança e otimização de
+                                    infraestrutura.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Member 4 -->
+                        <div class="team-card glass-dark-card">
+                            <div>
+                                <div class="team-card-header">
+                                    <div class="team-photo-frame">
+                                        <img
+                                            src="public/team/pedro.jpeg"
+                                            alt="Foto de Pedro Henrique Costa Zanluqui"
+                                        />
+                                    </div>
+                                    <div class="team-info">
+                                        <h3 class="team-member-name">
+                                            Pedro Henrique Costa Zanluqui
+                                        </h3>
+                                        <span class="team-member-role"
+                                            >Dev Front-End</span
+                                        >
+                                    </div>
+                                </div>
+                                <p class="team-member-bio">
+                                    Criação dos protótipos de alta fidelidade,
+                                    design de interface responsiva,
+                                    acessibilidade digital (WCAG) e integração
+                                    com os serviços de back-end.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Member 5 -->
+                        <div class="team-card glass-dark-card">
+                            <div>
+                                <div class="team-card-header">
+                                    <div class="team-photo-frame">
+                                        <img
+                                            src="public/team/jeremias.jpeg"
+                                            alt="Foto de Jeremias Coutinho de Brito"
+                                        />
+                                    </div>
+                                    <div class="team-info">
+                                        <h3 class="team-member-name">
+                                            Jeremias Coutinho de Brito
+                                        </h3>
+                                        <span class="team-member-role"
+                                            >Documentalista</span
+                                        >
+                                    </div>
+                                </div>
+                                <p class="team-member-bio">
+                                    Redação formal de requisitos
+                                    funcionais/não-funcionais, modelagem de
+                                    Diagramas de Entidade e Relacionamento (DER)
+                                    e relatórios de extensão.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Member 6 -->
+                        <div class="team-card glass-dark-card">
+                            <div>
+                                <div class="team-card-header">
+                                    <div class="team-photo-frame">
+                                        <img
+                                            src="public/team/matheus.jpeg"
+                                            alt="Foto de Matheus Eduardo de Oliveira"
+                                        />
+                                    </div>
+                                    <div class="team-info">
+                                        <h3 class="team-member-name">
+                                            Matheus Eduardo de Oliveira
+                                        </h3>
+                                        <span class="team-member-role"
+                                            >Documentalista</span
+                                        >
+                                    </div>
+                                </div>
+                                <p class="team-member-bio">
+                                    Estruturação dos relatórios parciais e final
+                                    de extensão, coleta de evidências visuais e
+                                    acompanhamento de métricas de impacto
+                                    comunitário.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professor card -->
+                    <div class="professor-card">
+                        <div class="professor-info">
+                            <div class="professor-avatar">KS</div>
+                            <div>
+                                <span class="professor-label"
+                                    >Docente Orientador · IFSP Catanduva</span
+                                >
+                                <h4 class="professor-name">
+                                    Prof. Kleber Sartorio
+                                </h4>
+                                <p class="professor-desc">
+                                    Disciplina CTDEXTE 2026.2 — Introdução à
+                                    Extensão Universitária
+                                </p>
+                            </div>
+                        </div>
+                        <div class="professor-institution">
+                            <span class="professor-inst-name"
+                                >Instituto Federal de São Paulo</span
+                            >
+                            <span class="professor-inst-campus"
+                                >Campus Catanduva</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ FAQ ═══════════════ -->
+            <section id="faq" class="section section--bg-white">
+                <div class="container container--narrow-md">
+                    <div class="section-header">
+                        <span class="eyebrow eyebrow--center">
+                            <!-- HelpCircle -->
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="12" cy="12" r="10" />
+                                <path
+                                    d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"
+                                />
+                                <path d="M12 17h.01" />
+                            </svg>
+                            Dúvidas Sobre a Proposta
+                        </span>
+                        <h2 class="section-title text-brand-purple">
+                            Perguntas Frequentes
+                        </h2>
+                        <p class="section-subtitle">
+                            Tudo sobre os objetivos, metodologia acadêmica e
+                            parcerias do Conecta Arte.
+                        </p>
+                    </div>
+
+                    <div class="faq-list">
+                        <div class="faq-item active">
+                            <button class="faq-question">
+                                <span>O que é o projeto Conecta Arte?</span>
+                                <svg
+                                    class="faq-chevron"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="18"
+                                    height="18"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                É uma proposta de extensão universitária criada
+                                por alunos do curso de Análise e Desenvolvimento
+                                de Sistemas (ADS) do IFSP Campus Catanduva. O
+                                objetivo é desenvolver uma plataforma digital
+                                permanente para expor e divulgar a produção
+                                artística local de Catanduva, conectando
+                                artistas e comunidade.
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span
+                                    >Qual problema o projeto se propõe a
+                                    resolver?</span
+                                >
+                                <svg
+                                    class="faq-chevron"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="18"
+                                    height="18"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                Em Catanduva, a produção artística de oficinas
+                                municipais (como a Estação Cultural) e artistas
+                                independentes carece de um espaço contínuo de
+                                divulgação. As mostras físicas são pontuais e
+                                anuais (como a MOARC). O Conecta Arte quebra
+                                barreiras geográficas e temporais, tornando o
+                                acervo acessível 24h.
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span
+                                    >O projeto cobra alguma taxa de
+                                    intermediação ou vendas?</span
+                                >
+                                <svg
+                                    class="faq-chevron"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="18"
+                                    height="18"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                Não. O Conecta Arte é um projeto acadêmico
+                                público, gratuito e sem fins lucrativos. Ele
+                                facilita o contato direto entre interessados e
+                                artistas, fomentando a economia criativa sem
+                                intermediar financeiramente as transações.
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span
+                                    >Como o projeto se alinha ao curso de
+                                    ADS?</span
+                                >
+                                <svg
+                                    class="faq-chevron"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="18"
+                                    height="18"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                O projeto contempla todo o ciclo de
+                                desenvolvimento de software: levantamento de
+                                requisitos, modelagem de banco de dados (DER),
+                                prototipação de interface (UI/UX), implementação
+                                Front-End e Back-End com foco em acessibilidade
+                                e testes, integrando diversas disciplinas da
+                                matriz curricular.
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span
+                                    >Quais são as instituições e parceiros
+                                    envolvidos?</span
+                                >
+                                <svg
+                                    class="faq-chevron"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="18"
+                                    height="18"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#ff0054"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </button>
+                            <div class="faq-answer">
+                                O projeto é desenvolvido no IFSP Campus
+                                Catanduva (disciplina CTDEXTE 2026.2), sob
+                                orientação do Prof. Kleber Sartorio, com
+                                parcerias previstas com a Estação Cultural,
+                                Secretaria Municipal de Cultura de Catanduva,
+                                coletivos culturais e Boss Tecnologia.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ CONTATO ═══════════════ -->
+            <section
+                id="contato"
+                class="section section--bg-secondary section--border-top"
+            >
+                <div class="container">
+                    <div class="contato-grid">
+                        <div class="contato-info">
+                            <span class="eyebrow">
+                                <!-- Mail -->
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="14"
+                                    height="14"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <rect
+                                        width="20"
+                                        height="16"
+                                        x="2"
+                                        y="4"
+                                        rx="2"
+                                    />
+                                    <path
+                                        d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                                    />
+                                </svg>
+                                Fale com a Equipe
+                            </span>
+                            <h2 class="section-title text-brand-purple">
+                                Vamos conversar sobre o
+                                <span class="gradient-text-conecta"
+                                    >projeto</span
+                                >.
+                            </h2>
+                            <p class="section-desc">
+                                Tem dúvidas sobre a proposta de extensão ou
+                                deseja sugerir parcerias? Envie uma mensagem
+                                direta para a coordenação!
+                            </p>
+
+                            <div class="contato-links">
+                                <a
+                                    href="https://wa.me/5516996380740"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="contato-link contato-link--whatsapp"
+                                >
+                                    <div
+                                        class="contato-link-icon contato-link-icon--green"
+                                    >
+                                        <!-- Phone -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <span class="contato-link-label"
+                                            >WhatsApp do Projeto</span
+                                        >
+                                        <p class="contato-link-value">
+                                            (16) 99638-0740
+                                        </p>
+                                    </div>
+                                </a>
+
+                                <a
+                                    href="https://www.instagram.com/conectaarte_catanduva/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="contato-link contato-link--instagram"
+                                >
+                                    <div
+                                        class="contato-link-icon contato-link-icon--pink"
+                                    >
+                                        <!-- Instagram -->
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <rect
+                                                width="20"
+                                                height="20"
+                                                x="2"
+                                                y="2"
+                                                rx="5"
+                                                ry="5"
+                                            />
+                                            <path
+                                                d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                                            />
+                                            <line
+                                                x1="17.5"
+                                                x2="17.51"
+                                                y1="6.5"
+                                                y2="6.5"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <span class="contato-link-label"
+                                            >Instagram do Projeto</span
+                                        >
+                                        <p class="contato-link-value">
+                                            @conectaarte_catanduva
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="contato-form-wrapper">
+                            <div
+                                class="contato-form-topbar gradient-conecta"
+                            ></div>
+
+                            <div class="contato-form-header">
+                                <h3 class="contato-form-title">
+                                    Mensagem Direta
+                                </h3>
+                                <div class="whatsapp-badge">
+                                    <span
+                                        class="badge-dot animate-pulse"
+                                        style="background: #22c55e"
+                                    ></span>
+                                    WhatsApp
+                                </div>
+                            </div>
+                            <div
+                                id="contact-success"
+                                class="contact-success"
+                                style="display: none"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="40"
+                                    height="40"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="#16a34a"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                >
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="m9 12 2 2 4-4" />
+                                </svg>
+                                <h4>Abrindo WhatsApp...</h4>
+                                <p>Redirecionando para (16) 99638-0740</p>
+                            </div>
+
+                            <form id="contact-form" class="contato-form">
+                                <div class="form-group">
+                                    <label for="contact-nome">Seu Nome</label>
+                                    <input
+                                        type="text"
+                                        id="contact-nome"
+                                        required
+                                        placeholder="Seu nome completo"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-assunto">Assunto</label>
+                                    <select id="contact-assunto">
+                                        <option value="Dúvida sobre o projeto">
+                                            Dúvida Geral
+                                        </option>
+                                        <option value="Parceria Institucional">
+                                            Parceria / Apoio
+                                        </option>
+                                        <option value="Cadastro de Artista">
+                                            Cadastro de Artista
+                                        </option>
+                                        <option value="Outro">Outro</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-mensagem"
+                                        >Mensagem</label
+                                    >
+                                    <textarea
+                                        id="contact-mensagem"
+                                        required
+                                        rows="3"
+                                        placeholder="Escreva sua mensagem..."
+                                    ></textarea>
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="btn-gradient btn-submit"
+                                >
+                                    <!-- Send -->
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path d="m22 2-7 20-4-9-9-4Z" />
+                                        <path d="M22 2 11 13" />
+                                    </svg>
+                                    Enviar via WhatsApp
+                                </button>
+                                <p class="form-disclaimer">
+                                    Ao clicar, o WhatsApp será aberto com o
+                                    texto formatado para o número
+                                    <strong>(16) 99638-0740</strong>.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══════════════ FOOTER ═══════════════ -->
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="footer-grid">
+                        <div class="footer-brand">
+                            <div class="footer-logo-box">
+                                <img
+                                    src="public/logo.png"
+                                    alt="Logo Conecta Arte"
+                                    class="footer-logo"
+                                />
+                            </div>
+                            <p class="footer-description">
+                                Proposta de Extensão Universitária do curso de
+                                Análise e Desenvolvimento de Sistemas (ADS) —
+                                IFSP Campus Catanduva (CTDEXTE 2026.2).
+                            </p>
+                            <div class="footer-ods">
+                                <span>ODS 8 &amp; ODS 11</span> ·
+                                <span>Catanduva, SP</span>
+                            </div>
+                        </div>
+
+                        <div class="footer-nav">
+                            <h4 class="footer-heading">Navegação</h4>
+                            <ul>
+                                <li><a href="#inicio">Início</a></li>
+                                <li>
+                                    <a href="#projeto"
+                                        >Diagnóstico &amp; Problema</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#objetivos"
+                                        >Objetivos &amp; Metas</a
+                                    >
+                                </li>
+                                <li><a href="#ods">Impacto Social (ODS)</a></li>
+                                <li><a href="#cronograma">Cronograma</a></li>
+                                <li><a href="#equipe">Equipe ADS</a></li>
+                                <li><a href="#faq">FAQ</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-partners">
+                            <h4 class="footer-heading">Parceiros</h4>
+                            <ul>
+                                <li>IFSP Campus Catanduva</li>
+                                <li>Estação Cultural Catanduva</li>
+                                <li>Secretaria Municipal de Cultura</li>
+                                <li>Coletivos Artísticos</li>
+                                <li>Boss Tecnologia</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p>
+                            © 2026 Conecta Arte — Projeto de Extensão ADS · IFSP
+                            Catanduva.
+                        </p>
+                        <a href="#inicio">Voltar ao Topo ↑</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
